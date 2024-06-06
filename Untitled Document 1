@@ -1,0 +1,17 @@
+1. db.logs.insertMany([{serial:11111, full_name:'dane cosicol', department:'CAST', access_level:10}, {serial:2222, full_name:'tope sab', department:'BSBA', acess_level:9}, {serial:3333, full_name:'ale fock',department:'CAST', access_level:6}, {serial:4444, full_name:'pad door', department:'CAST',access_level:3}, {serial:55555, full_name:'joshua gallana', department:'COE', access_level:6}]) 
+
+2. db.products.find({$and:[{category:"smartphones"},{brand:"Apple"}]}) 
+
+3. db.todos.find({ userId: 24, completed: true }) 
+
+4. db.carts.find({$or:[{total:{$gt:2000}},{totalQuantity:{$gte:10}}]}) 
+
+5. db.products.find({$or:[{stock:{$lt:50}},{discountPercentage:{$gte:10}}]},['title','price','rating']) 
+
+6. db.carts.find({ "products.discountedPrice": { $gte: 50 } }) 
+
+7. db.carts.find({ "products.id": { $in: [59, 9, 70] } })
+
+Write to John meward lanoy
+
+
